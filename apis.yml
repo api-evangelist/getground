@@ -1,8 +1,24 @@
 aid: getground
 name: Getground
-description: 'Getground is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: wealth-management. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'GetGround is a London-based property investment platform that lets UK and
+  international buy-to-let investors set up and run their rental businesses through a
+  limited company. The all-in-one platform handles limited company formation, business
+  bank accounts, accounting and tax filing (including Making Tax Digital), bookkeeping,
+  buy-to-let mortgages, landlord insurance, tenant finding, and sourcing of investment
+  properties. GetGround is backed by QED Investors and offers subscription tiers and
+  launch packs for landlords managing single or multiple rental properties.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.getground.co.uk/images/8d1368b4-a2f5-40c4-8bf7-28161414f84f.webp
 url: https://raw.githubusercontent.com/api-evangelist/getground/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Wealth Management
+- Property Investment
+- Buy-to-Let
+- Fintech
+- PropTech
+- Real Estate
+- Accounting
+- Limited Company
+- Landlords
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.getground.co.uk
+  url: https://www.getground.co.uk
+- type: Blog
+  url: https://www.getground.co.uk/resources/blog
+- type: Pricing
+  url: https://www.getground.co.uk/subscriptions
+- type: SignUp
+  url: https://www.getground.co.uk/login
+- type: Support
+  url: https://www.getground.co.uk/contact
+- type: TermsOfService
+  url: https://www.getground.co.uk/terms
+- type: PrivacyPolicy
+  url: https://www.getground.co.uk/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/getground
+- type: DomainSecurity
+  url: security/getground-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
