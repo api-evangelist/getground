@@ -7,6 +7,17 @@ description: 'GetGround is a London-based property investment platform that lets
   buy-to-let mortgages, landlord insurance, tenant finding, and sourcing of investment
   properties. GetGround is backed by QED Investors and offers subscription tiers and
   launch packs for landlords managing single or multiple rental properties.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
