@@ -47,7 +47,7 @@ tags:
 - Buy-to-Let
 - Fintech
 - PropTech
-- Real-Estate
+- Real Estate
 - Accounting
 - Limited Company
 - Landlords
@@ -62,6 +62,7 @@ tags_raw:
 - Accounting
 - Limited Company
 - Landlords
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
